@@ -1,0 +1,76 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\CategoryResource\\:\\:\\$category\\.$#"
+			count: 1
+			path: app/Http/Resources/CategoryResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\CategoryResource\\:\\:\\$created_at\\.$#"
+			count: 1
+			path: app/Http/Resources/CategoryResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\CategoryResource\\:\\:\\$deleted_at\\.$#"
+			count: 1
+			path: app/Http/Resources/CategoryResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\CategoryResource\\:\\:\\$id\\.$#"
+			count: 1
+			path: app/Http/Resources/CategoryResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\CategoryResource\\:\\:\\$updated_at\\.$#"
+			count: 1
+			path: app/Http/Resources/CategoryResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\EntityResource\\:\\:\\$api\\.$#"
+			count: 1
+			path: app/Http/Resources/EntityResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\EntityResource\\:\\:\\$category\\.$#"
+			count: 1
+			path: app/Http/Resources/EntityResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\EntityResource\\:\\:\\$category_id\\.$#"
+			count: 1
+			path: app/Http/Resources/EntityResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\EntityResource\\:\\:\\$created_at\\.$#"
+			count: 1
+			path: app/Http/Resources/EntityResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\EntityResource\\:\\:\\$deleted_at\\.$#"
+			count: 1
+			path: app/Http/Resources/EntityResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\EntityResource\\:\\:\\$description\\.$#"
+			count: 1
+			path: app/Http/Resources/EntityResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\EntityResource\\:\\:\\$id\\.$#"
+			count: 1
+			path: app/Http/Resources/EntityResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\EntityResource\\:\\:\\$link\\.$#"
+			count: 1
+			path: app/Http/Resources/EntityResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\EntityResource\\:\\:\\$updated_at\\.$#"
+			count: 1
+			path: app/Http/Resources/EntityResource.php
+
+		-
+			message: "#^Access to property \\$id on an unknown class App\\\\Models\\\\User\\.$#"
+			count: 1
+			path: app/Providers/RouteServiceProvider.php
