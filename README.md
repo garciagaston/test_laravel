@@ -1,6 +1,6 @@
-TEST LARAVEL
+# TEST LARAVEL
 
-INSTALLATION
+## INSTALLATION
 
 1. install composer
 composer install
@@ -28,20 +28,19 @@ Laravel Pint
 PHP Stan
 ./vendor/bin/phpstan analyse ./app
 
-
-COMMANDS
+## COMMANDS
 
 Import Entities
 Run the following command to import Entities from https://api.publicapis.org/entries
 php artisan entities:import
 
-UNIT TESTS
+## UNIT TESTS
 
 Run Unit Tests
 Command to run unit test
 php artisan test
 
-API DOCUMENTATION
+## API DOCUMENTATION
 
 Get paginated categories:
 GET {SITE_URL}/api/{category ID}
@@ -49,7 +48,7 @@ HEADER {
     Accept:application/json
 }
 
-IMPORTANT FILES
+## IMPORTANT FILES
 
 app/Http/Controllers/EntityController.php
 app/Console/Commands/EntitiesImport.php
