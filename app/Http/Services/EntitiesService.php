@@ -23,7 +23,7 @@ final class EntitiesService
                     'link' => $entry['Link'],
                     'category_id' => Category::firstOrCreate(['category' => $entry['Category']])->id,
                 ]);
-                $command->line('Imported '.$entry['API'].' from '.$entry['Category'].' category');
+                $command->line('Imported "'.$entry['API'].'" Entity from "'.$entry['Category'].'" category');
             }
         }
     }

@@ -21,6 +21,7 @@ class EntityResource extends JsonResource
     public function toArray(Request $request): array
     {
         $category = $this->category;
+
         return [
             'id' => $this->id,
             'api' => $this->api,
